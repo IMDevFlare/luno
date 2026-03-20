@@ -1,0 +1,23 @@
+-- Luno Example: Hello World
+
+let greeting be "Hello"
+let target be "World"
+
+say greeting ++ " " ++ target
+
+define greet (name) {
+    say "Welcome, " ++ name ++ "!"
+}
+
+greet("Alice")
+
+repeat from 1 to 5 as n {
+    say "Counting: " ++ n
+}
+
+let score be 100
+if score is greater than 90 then {
+    say "Great job!"
+} otherwise {
+    say "Keep trying!"
+}
