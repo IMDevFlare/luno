@@ -1,6 +1,10 @@
 [package]
 name = "luno"
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
+description = "The Luno programming language interpreter"
+license = "MIT"
 
-[dependencies]
+[[bin]]
+name = "luno"
+path = "src/main.rs"

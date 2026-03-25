@@ -1,0 +1,22 @@
+let name = "world"
+print(`Hello, ${name}!`)
+
+fn factorial(n: int) -> int:
+    if n <= 1:
+        return 1
+    return n * factorial(n - 1)
+
+print(factorial(10))
+
+class Animal:
+    fn init(self, name: str):
+        self.name = name
+    fn speak(self):
+        print(`${self.name} makes a sound.`)
+
+class Dog(Animal):
+    fn speak(self):
+        print(`${self.name} barks!`)
+
+let d = Dog("Rex")
+d.speak()
