@@ -111,7 +111,3 @@ luno/
 ├── CHANGELOG.md         # Version history
 └── TODO.md              # Roadmap and planned features
 ```
-
-## 📄 License
-
-[MIT](LICENSE)
